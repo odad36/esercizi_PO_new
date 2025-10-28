@@ -1,0 +1,119 @@
+type: edu
+files:
+  - name: src/it/unisa/supermarket/Product.java
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 63
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 31
+        initialized_from_dependency: false
+        encrypted_possible_answer: CjMuWzhQiZUl3oP5GVjBYHQytX7Y0UKN+ZGOvxph4hA=
+        selected: false
+        status: Solved
+      - offset: 1030
+        length: 11
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 977
+        initialized_from_dependency: false
+        encrypted_possible_answer: FFOSrZKaL5p1r2J6DxNHbQ==
+        selected: false
+        status: Solved
+      - offset: 1125
+        length: 23
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 1071
+        initialized_from_dependency: false
+        encrypted_possible_answer: yjSrBEZrNV4buN+jWu1OxocMDRGSXqXhz8bpesk+fEU=
+        selected: true
+        status: Solved
+      - offset: 1187
+        length: 185
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 1129
+        initialized_from_dependency: false
+        encrypted_possible_answer: xCqGPHYixFjHGAp840d808Z1GYj5Z/ZYf7qx6vVy5jxqIbuiwjlFELbc622px/tIcxf8coxVuN+sFWIeGMdOd9dbPAs873P9mVSn8keEQ6vticlbDzHKsMpN7XaMScSIzSoKtxtKo49+/w8ZjJZub5zKwFuBOlweGV9UPzEUClHqpK1Ws+vuGJdeaBSctQ3k3sLRIQViliVXGalRNgOPXQ==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: src/it/unisa/supermarket/Grocery.java
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 63
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 31
+        initialized_from_dependency: false
+        encrypted_possible_answer: CjMuWzhQiZUl3oP5GVjBYHQytX7Y0UKN+ZGOvxph4hA=
+        selected: true
+        status: Solved
+      - offset: 446
+        length: 71
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 393
+        initialized_from_dependency: false
+        encrypted_possible_answer: QBXYAKwgyjWWME2BjXIJLPOOIjoMydEOGu/tbA+D4CsfmqLOa9OnQJVfJGFyXnKpuV4Xu2P5fdulTY9Ngd9l4ELCsvohxpxPT07s0S1AW3M=
+        selected: true
+        status: Solved
+      - offset: 523
+        length: 102
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 409
+        initialized_from_dependency: false
+        encrypted_possible_answer: NcloBAptLewKE/mScgY08vr2sUOj4C66G1bnmNfW+4ExP+UC9qWPqA6VIyYcJiGBEetOhiTuPJZpsVVbqR2N09N2oEAA99ErTW5Eek0RJWChIg9VL2AT1apOYbsCs3nq/cxDoWIDvNCdfrvyvPdG0g==
+        selected: true
+        status: Solved
+      - offset: 845
+        length: 41
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 561
+        initialized_from_dependency: false
+        encrypted_possible_answer: 3H/hcTcKgk+9bFAsuNrX/UjDBynjCDCtd/e/8Xpt90SjE3I+ccusfvwtuR8LrjOqUuagUVcEFJt7pUAHDiPy7x0xm7hAz04gUNBJxlGpSFGSZNGWcBocxa9movA7nD7o
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: src/it/unisa/supermarket/Electronic.java
+    visible: true
+    learner_created: false
+  - name: src/it/unisa/supermarket/Supermarket.java
+    visible: true
+    learner_created: false
+  - name: src/it/unisa/supermarket/ProductComparatorByCode.java
+    visible: true
+    learner_created: false
+  - name: src/it/unisa/supermarket/ProductComparatorByPrice.java
+    visible: true
+    learner_created: false
+  - name: test/it/unisa/supermarket/SupermarketTest.java
+    visible: true
+    learner_created: false
+  - name: test/it/unisa/supermarket/ProductTest.java
+    visible: true
+    learner_created: false
+  - name: test/it/unisa/supermarket/GroceryTest.java
+    visible: true
+    learner_created: false
+  - name: test/it/unisa/supermarket/ElectronicTest.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 28 Oct 2025 17:18:31 UTC"
+record: -1

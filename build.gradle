@@ -1,0 +1,75 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id "org.sonarqube" version "6.2.0.5505"
+}
+
+def printOutput(def output) {
+    return tasks.create("printOutput") {
+        println "#educational_plugin_checker_version 1"
+        def separator = System.lineSeparator()
+        def lines = output.toString().split("(?<=${separator})|(?=${separator})")
+        for (line in lines) {
+            println "#educational_plugin" + line
+        }
+    }
+}
+
+subprojects {
+    apply plugin: 'application'
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.21
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+    }
+
+    sourceSets {
+        main {
+            java.srcDir 'src'
+        }
+        test {
+            java.srcDir 'test'
+        }
+    }
+
+    mainClassName = project.hasProperty("mainClass") ? project.getProperty("mainClass") : ""
+
+    if (project.hasProperty("educationalRun") && "true".equalsIgnoreCase(project.getProperty("educationalRun"))) {
+        def runOutput = new ByteArrayOutputStream()
+        tasks.run.setStandardOutput(runOutput)
+        tasks.run.doLast { printOutput(runOutput) }
+    }
+}
+
+
+
+sonar {
+    properties {
+        property "sonar.projectKey", "OOP-lab"
+        property "sonar.projectName", "OOP-lab"
+        property "sonar.modules", subprojects.findAll { project ->
+            new File(project.projectDir, "src").exists()
+        }.collect { project ->
+            project.name.replaceAll("[^a-zA-Z0-9_.-]", "_")
+        }.join(",")
+    }
+}
+
+subprojects {
+    sonar {
+        properties {
+            property "sonar.projectKey", "OOP-lab:" + project.name.replaceAll("[^a-zA-Z0-9_.-]", "_")
+            property "sonar.projectName", project.name
+        }
+    }
+}

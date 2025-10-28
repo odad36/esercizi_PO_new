@@ -1,0 +1,81 @@
+type: edu
+files:
+  - name: src/SavingAccount.java
+    visible: true
+    placeholders:
+      - offset: 149
+        length: 28
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 149
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5TZVWhkFKkWaHxD8U7Q4HSa1tZPPhF1QkKzYO53aR4U=
+        selected: false
+        status: Unchecked
+      - offset: 307
+        length: 19
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 289
+        initialized_from_dependency: false
+        encrypted_possible_answer: H3NfM8uQJ0u5xWrLsj9yCQfx17c0EuyPm4rkM9jLFy8=
+        selected: false
+        status: Unchecked
+      - offset: 431
+        length: 41
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 404
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5+wU1QBikkt+8i8RyXMF5QQsiORNvE3aLg3i4p9QCrhNm9AJ4HmcfGKr47O8+6NE
+        selected: false
+        status: Unchecked
+      - offset: 526
+        length: 21
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 468
+        initialized_from_dependency: false
+        encrypted_possible_answer: rRLwbKssAzTqyXA50i+q+feWdbQGkAb/ZMVQc+XH+0s=
+        selected: false
+        status: Unchecked
+      - offset: 673
+        length: 33
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 604
+        initialized_from_dependency: false
+        encrypted_possible_answer: jKURa6cAnPUNgJPAXg1ObPgfwtE4jhBNcPiyvVykxAz9YNLxFieTPsHq/eX8A1cn
+        selected: false
+        status: Unchecked
+      - offset: 1108
+        length: 376
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 1016
+        initialized_from_dependency: false
+        encrypted_possible_answer: HhYgDAJCap1F/CTezdP/m8pfu9gXJKA4mRtocYfXmqhO3ZjKD8LucrTNMwGb+nyp1RBJu8y4JLMQ/pios3Jb8maZewFPz83IuCQ7vD/RuWgzeFD2iXOVTof6ljWdKJg1VcuS+tQPhTMmhQcnZsHENRzgrzGEAXUdm2NlS5ypKF2w7vXD0ZZoqyky9nSbaSCPBliieeYVyxPUhuG+F25X/5wyRYigtMEnDfaupwy/6Fir1VUHsXrbTjcmWONbUlpI
+        selected: false
+        status: Unchecked
+      - offset: 1974
+        length: 77
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 1385
+        initialized_from_dependency: false
+        encrypted_possible_answer: BaaJEcTCc8Xlwk4q3psuL2fltpDpzZKQaeo5Svw8GPYD+WWSK2lPMrj1knVskmuLkK5iIbYWrSp0CZ1lZLqw+uR92GxyxJlKUO7T1wPkEpm9or/a9BKZllO5H+zFg4JWlfu7DLIB7BJoR5OP06EMd59R8lJln66VE2bkZDjcO8vURlXO+OygCY0GriXi9DdSmfgrW/L9+SGH/u1g8lhYkFHUznBvsikpTl+eCf4880CH5H/kjYMITuOjaUWLuFagmpDP95LfTDs+RSimoDt7LxwfS0A1VyhcfFkXRiM76FxQ+X0A3hpY8mK/q8HpwqcrYjCfE54UavhyWoIxJM2RehICjGAuNFCcQyuyq7RYJaFRv+M17KyfMVG1BPXP2+fjpTDXfKxxaD7naQUbBu3Ak/7TI18OhdaC4SCTQ9DhZ43t20ijwyU3F9llI9bfHA5zD5RU00SwFZfwbZbfXUEaNStJpDsQLZhrPl/UvwENZLt1USwVaM+Oph9TrrLKc6r7UyI8wko19np8ntO8eG/bCwLD0DfufFKle7/2qOMTSEg=
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: test/SavingAccountTest.java
+    visible: true
+    learner_created: false
+status: Solved
+record: -1

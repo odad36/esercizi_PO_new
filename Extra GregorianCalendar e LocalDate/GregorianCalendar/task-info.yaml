@@ -1,0 +1,223 @@
+type: edu
+files:
+  - name: src/it/unisa/supermarket/Product.java
+    visible: true
+    placeholders:
+      - offset: 978
+        length: 345
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 978
+        initialized_from_dependency: false
+        encrypted_possible_answer: Yght81TmIacYwfaDZeDU9NLlem2m7BE6AO3aruROvZcqLzWQZKk/Idf8doSflqL8+s+DyWsvcjJyAhVpgu0eOGkhWS8Md6c1EotyOvNxxyAuxnpRvitdac+5YRHGiexLC9Jfbzf5YaeE8PpfTn4l1Y4+pgamcshSAIl9+3ZPmZeSqT53wgbdmEWF7SfbJdCyYeTwvLJir4xN4JzTSSnUGPDmrX/DAGEYMVum/L45bAg=
+        selected: true
+        status: Solved
+      - offset: 978
+        length: 371
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 994
+        initialized_from_dependency: false
+        encrypted_possible_answer: 9ooKYRopDthiU64aaxLlQwM/JmC7M5ks2zNTo5drCOZN6jsvJdsUiP6kMcCFikIANAHOr3vVWlXdBpLAam1ara3WnMiA0E+ScUjp9RiiiwKLGPH72m85LifcRdI26trUsvth0YM2j8rSz5ZCvcEt6a5l+d1W7/PNyQ/IW3tizIWOv6uxnYfPiRqpQZaCZi3sdTs+/zpazgv1ZKMalKSh1VvZi8J2DZ2ONO8PBbjeGKFY8tkRegwowS1hWXbkCf436HQ8/tiOVi7ASRv1om8ktw==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: src/it/unisa/supermarket/Grocery.java
+    visible: true
+    placeholders:
+      - offset: 89
+        length: 15
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 89
+        initialized_from_dependency: false
+        encrypted_possible_answer: IiWW7xZScw6RPU5699sPZQ==
+        selected: true
+        status: Solved
+      - offset: 770
+        length: 241
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 765
+        initialized_from_dependency: false
+        encrypted_possible_answer: 3H/hcTcKgk+9bFAsuNrX/UjDBynjCDCtd/e/8Xpt90TXacvR+rec/Qm3pWYTnYybzoUqAPCq5eyy3EgVBXW060uMlQpPE5/zypVEHiG6QCxz9KFHrsX1Jgz6LA5oJtY3f31m48jRtvFubsVk5b+x5A==
+        selected: true
+        status: Solved
+      - offset: 1017
+        length: 10
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 781
+        initialized_from_dependency: false
+        encrypted_possible_answer: rydaPfk0X4RmkWkdkoZFEBSgyixzR0Nll1U5sVQ8sRbdS7VFae1HYYwOZRUjxuf3iTAZbR7HUyR3xUCBCGf1espevwPomWEHq6dLOHU/NFJpddXIHQqHD2q9QkQ/UqCliySaCXKW3YYmeDtJ8z437Et2HRvUfz8ctrkOFl3iryOYiS2U2r/RNyziy1X7j8P6j3AF0W+05bFr+ENY54WIGQHLzrr9oglR4pd7vxy+Ct8=
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: src/it/unisa/supermarket/Electronic.java
+    visible: true
+    placeholders:
+      - offset: 55
+        length: 15
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 55
+        initialized_from_dependency: false
+        encrypted_possible_answer: IiWW7xZScw6RPU5699sPZQ==
+        selected: true
+        status: Solved
+      - offset: 949
+        length: 273
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 948
+        initialized_from_dependency: false
+        encrypted_possible_answer: WyOW8aF9ZtoHWkVVpGVoY3gxczZgN9AF0ukxk7gVg5WIPxQ6yu10cAy5xpSqCaKeQiN8D6R+7FiDtCRUTSTgujLLpX/SFnhQqlpfkRUtDM+JOy8ESC003se5FR1g7l8N
+        selected: true
+        status: Solved
+      - offset: 1228
+        length: 10
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 964
+        initialized_from_dependency: false
+        encrypted_possible_answer: rydaPfk0X4RmkWkdkoZFEBSgyixzR0Nll1U5sVQ8sRbootf2muVVrI31FU/paa8Dsw586E5346zlk6iy6IB7WZAKuoiuFIqZ4TblQsZBiRw1jTiCgwr67vwc+PXA+JG9bbH2ZxLGFU1icqRWUF/7wJ49gyw4QFY1UjyqCBfOd9jRFrezhrMhpnYP2z6Vl/VyMsH85DW7I/iURF6k0n+/o5m/IcBPFo0YOz0N08Dd7erQxwubcvQcQzhZGYkAIAen0bXN3XbrF7ZgajTjgCSvcg==
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: src/it/unisa/supermarket/Supermarket.java
+    visible: true
+    placeholders:
+      - offset: 291
+        length: 130
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 265
+        initialized_from_dependency: false
+        encrypted_possible_answer: T3eiTYASIciSRZ6u+Fk9Ic52g8V6rmoh0jYGVCGk3Tsiv0WUDiGKzrHOdtmEIa89EA6B0CX3Ulm6jd+6zbOirNIoJ6hC79bztq1TfiSOwIKx0Aj8xTUGcNsC53GbzeEUW6uo8/frbPUKlu6rrt/2W/TfbhF7eebpjNMFsXq810kwKLmWM9ebwu9ynwH13eY4
+        selected: false
+        status: Solved
+      - offset: 500
+        length: 161
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 354
+        initialized_from_dependency: false
+        encrypted_possible_answer: eL2btLaNsJiFXYgIOjglnt9ni/ng4iNQnZdh+9HsP0W/uBmNGB3iOm7ZGbsD2Et2f8WuwxC6odYb8+BUZSYRu1gnXWhcg1QUgV97ubYfCtUKoRvamS5Oh+A4GFk+23SAAeXy6TBoYRgoX0Qhzahot/i5pihMIyemnkI8061yhKgUBR4mvYfEg+q3Sl3o+IOfm4vpCqrjTwmnXIBX+Px2bEHQIJk+jT1El7ZnVoFSX33Btqv1Ux0UFsBOmK89Ug3Etf5cWUb8puwB7TCpXK/37WfaJkC6YN3qKXhBDwhQD3kG1OoQsRgkZk9RMz9NvNrOloNWyPKteuYwT+FM1Al9TUk7fqPztcINE7pVGVclMQU=
+        selected: true
+        status: Solved
+      - offset: 666
+        length: 115
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 370
+        initialized_from_dependency: false
+        encrypted_possible_answer: Ub+ccn9yuGvKDlj9+9WkjhX+QOXnNJafvAtEaZfidpMMd0iFzuN6YdDpTdyNxl10PbeyLcXqCMnlIfIjYqA0t7rgXjbEUAfkDjXiJ+pLbkb0StDfpcdewHYczhKH8uxEBVXdowL7JAhDmjfpM30lzz2qbx5P1cEyvvIeZwC11U8=
+        selected: true
+        status: Solved
+      - offset: 787
+        length: 108
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 386
+        initialized_from_dependency: false
+        encrypted_possible_answer: Ub+ccn9yuGvKDlj9+9Wkjh8y4ThYVE9igCxisN+4Wc1zmmQ3I3IcQYcsK2FnSW7jHsf+vMQ5uCQFK94yNEcJSNGNxtG71/gOB2121ddXjKNGmNK0e8CwMHG9EbfKybgB9P5WPHQYDj7vkGQTDZHiShp0k+0N0b9WPnYh9KIDh0Y=
+        selected: true
+        status: Solved
+      - offset: 901
+        length: 236
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 402
+        initialized_from_dependency: false
+        encrypted_possible_answer: Y1oXhPzHKUPYvwvyPhlQb7PQoy1S/q5+WQONSm2yqR+LhUZMRFMmiRWfDPKUmXrqUxT9GyKX+4/zfvQe23exxJOCx0p3V5dRHy/xEDvuAWqhwguOW0t805fF6pTZ9mvpSMIrmTYA8V5nSDtFcJ/ngbCjfqasA4RHaynKq/ap39TDSiycN4rkSSIoSANl9tZgW4JBsrpx17YThNpfvm2IEQgtKKVz5YJ1FGgOp5vGRq9X9/plsmcTZpCwZtUNNjkZlKSDcXLo1hTNpdilhHNJJu4DgGKk92uUtSnzYq/DKNeFPSYASLtaZL8cubeHxgAmMCW2OtQCgYprmJDGhhU7WvIEKsGLj1lHMHUT59/kBnI=
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: src/it/unisa/supermarket/ProductComparatorByCode.java
+    visible: true
+    placeholders:
+      - offset: 98
+        length: 30
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 98
+        initialized_from_dependency: false
+        encrypted_possible_answer: 7Obo3vU5ly8aOEObYeFOSd3PtDUCL6o0aa7CF2mlCJ0=
+        selected: true
+        status: Solved
+      - offset: 145
+        length: 98
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 116
+        initialized_from_dependency: false
+        encrypted_possible_answer: rydaPfk0X4RmkWkdkoZFEO2oZc1fEG2vzQfOItOIJnD5rqdaydZeihmdLcrWGah3eEY1NW1Oa77dCd7Eq3bLz/Lc+oiF1DF1GBydz8nkd6kx4zuH3CwDjdkrt08bFJqPSvkDkO5Owr25ahQDciO313ZnGbdi9S5EAqRWr6GvKwVUw3dKm90+wR7MSRFGyoci
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: src/it/unisa/supermarket/ProductComparatorByPrice.java
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 149
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 31
+        initialized_from_dependency: false
+        encrypted_possible_answer: NYgHoNruO3t7vIi6YFhoH3kXdnU/zLXLLinCDRPcf8o=
+        selected: true
+        status: Solved
+      - offset: 236
+        length: 3
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 81
+        initialized_from_dependency: false
+        encrypted_possible_answer: 7Obo3vU5ly8aOEObYeFOSd3PtDUCL6o0aa7CF2mlCJ0=
+        selected: true
+        status: Solved
+      - offset: 246
+        length: 16
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 99
+        initialized_from_dependency: false
+        encrypted_possible_answer: rydaPfk0X4RmkWkdkoZFEO2oZc1fEG2vzQfOItOIJnD5rqdaydZeihmdLcrWGah3eEY1NW1Oa77dCd7Eq3bLz/Lc+oiF1DF1GBydz8nkd6kNhTOLrn2Nx9GiW1mxUeF66erK3Vsv8DcFAQqDAVbPl1mk/wR6J6LdSFYZxgXPEhoj4V3IWF7ZylNRP9NSbtmcKE40LGb+nILr6lRJqOnCJg==
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/it/unisa/supermarket/SupermarketTest.java
+    visible: true
+    learner_created: false
+  - name: test/it/unisa/supermarket/ProductTest.java
+    visible: true
+    learner_created: false
+  - name: test/it/unisa/supermarket/GroceryTest.java
+    visible: true
+    learner_created: false
+  - name: test/it/unisa/supermarket/ElectronicTest.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 28 Oct 2025 17:03:00 UTC"
+record: -1

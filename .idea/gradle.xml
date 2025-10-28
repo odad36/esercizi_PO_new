@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Eccezioni/Bank3" />
+            <option value="$PROJECT_DIR$/Eccezioni/FinancialHistory" />
+            <option value="$PROJECT_DIR$/Eccezioni/School2" />
+            <option value="$PROJECT_DIR$/Eccezioni/TryAgain" />
+            <option value="$PROJECT_DIR$/Ereditarietà/Bank2" />
+            <option value="$PROJECT_DIR$/Ereditarietà/Bookshop" />
+            <option value="$PROJECT_DIR$/Ereditarietà/Company" />
+            <option value="$PROJECT_DIR$/Ereditarietà/MedicalTests" />
+            <option value="$PROJECT_DIR$/Ereditarietà/Quiz3" />
+            <option value="$PROJECT_DIR$/Ereditarietà/Railways2" />
+            <option value="$PROJECT_DIR$/Ereditarietà/School" />
+            <option value="$PROJECT_DIR$/Extra GregorianCalendar e LocalDate/GregorianCalendar" />
+            <option value="$PROJECT_DIR$/Extra GregorianCalendar e LocalDate/LocalDate" />
+            <option value="$PROJECT_DIR$/File/Bank4" />
+            <option value="$PROJECT_DIR$/File/CarSeller" />
+            <option value="$PROJECT_DIR$/File/PhoneCompany" />
+            <option value="$PROJECT_DIR$/Interfacce Grafiche/Drawing" />
+            <option value="$PROJECT_DIR$/Interfacce Grafiche/VehicleArchive" />
+            <option value="$PROJECT_DIR$/Interfacce/Country" />
+            <option value="$PROJECT_DIR$/Interfacce/Quiz" />
+            <option value="$PROJECT_DIR$/Interfacce/Quiz2" />
+            <option value="$PROJECT_DIR$/Interfacce/SMS2" />
+            <option value="$PROJECT_DIR$/Interfacce/Student" />
+            <option value="$PROJECT_DIR$/Iterazioni ed Array/Bank" />
+            <option value="$PROJECT_DIR$/Iterazioni ed Array/Dice" />
+            <option value="$PROJECT_DIR$/Iterazioni ed Array/MagicSquare" />
+            <option value="$PROJECT_DIR$/Iterazioni ed Array/Purse" />
+            <option value="$PROJECT_DIR$/Iterazioni ed Array/Tic-tac-toe" />
+            <option value="$PROJECT_DIR$/Lamba Expressions/Conversione in Maiuscolo" />
+            <option value="$PROJECT_DIR$/Lamba Expressions/Ordinamento con Riferimento a Metodo e Lambda" />
+            <option value="$PROJECT_DIR$/Lamba Expressions/Somma con Lambda" />
+            <option value="$PROJECT_DIR$/Lamba Expressions/Somma con Riferimento a Metodo" />
+            <option value="$PROJECT_DIR$/Lamba Expressions/Stampa con Lambda" />
+            <option value="$PROJECT_DIR$/Pacchetti e Variabili Statiche/Railways" />
+            <option value="$PROJECT_DIR$/Pacchetti e Variabili Statiche/SMS" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/Car" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/FirstAndLastWord" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/Infected" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/InputChecker" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/Locker" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/SavingAccount" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/Student" />
+            <option value="$PROJECT_DIR$/Realizzazione di Classi/VendingMachine" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/CharAt" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/FirstAndLastInverted" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/IndexOf" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/InvertHalfString" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/PrintMiddleChar" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/Rectangle" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/StringBuilder" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/StringClass" />
+            <option value="$PROJECT_DIR$/Scrittura Primi Programmi/UpperCaseInitial" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
