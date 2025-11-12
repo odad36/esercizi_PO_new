@@ -2,8 +2,8 @@ package it.unisa.country;
 
 public class DataSet {
 
-    private /* TODO */ minimum;
-    private /* TODO */ maximum;
+    private Country minimum;
+    private Country maximum;
     private int count;
 
     public DataSet() {
@@ -12,15 +12,15 @@ public class DataSet {
         maximum = null;
     }
 
-    public /* TODO */ getMaximum() {
+    public Country getMaximum() {
         return maximum;
     }
 
-    public /* TODO */ getMinimum() {
+    public Country getMinimum() {
         return minimum;
     }
 
-    public void add(/* TODO */ x) {
+    public void add(Country x) {
         if (count == 0 || x.compareTo(minimum) < 0)
             minimum = x;
         if (count == 0 || x.compareTo(maximum) > 0)

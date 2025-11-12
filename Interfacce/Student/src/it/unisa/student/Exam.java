@@ -14,14 +14,17 @@ public class Exam {
     }
 
     public String getTopic() {
+
         return topic;
     }
 
     public GregorianCalendar getDate() {
+
         return date;
     }
 
     public int getGrade() {
+
         return grade;
     }
 }
