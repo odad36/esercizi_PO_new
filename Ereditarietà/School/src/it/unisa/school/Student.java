@@ -1,12 +1,21 @@
 package it.unisa.school;
 
-public class Student /* TODO */ {
+public class Student extends Person {
 
-    /* TODO */
+    private int numberOfAbsences;
 
-    /* TODO */
+    public Student(String name, String surname, int birthYear, int numberOfAbsences){
+        super(name, surname, birthYear);
+        this.numberOfAbsences = numberOfAbsences;
+    }
 
-    /* TODO */
+    public void increaseAbsences(){
+        this.numberOfAbsences++;
+    }
+
+    public void decreaseAbsences(){
+        this.numberOfAbsences--;
+    }
 
     @Override
     public String toString() {

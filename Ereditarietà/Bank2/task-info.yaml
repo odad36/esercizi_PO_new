@@ -4,25 +4,25 @@ files:
     visible: true
     placeholders:
       - offset: 241
-        length: 10
+        length: 19
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 241
         initialized_from_dependency: false
         encrypted_possible_answer: P4Akp+IRfsvoM6DzBnjPd+J6EdzA/VVe/SDeeLjip6w=
-        selected: false
-        status: Unchecked
-      - offset: 263
-        length: 10
+        selected: true
+        status: Failed
+      - offset: 272
+        length: 22
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 263
         initialized_from_dependency: false
         encrypted_possible_answer: dOQCPMmsZ87C2mOl5XKcB0KMOk7rpfMh7hQyXirhh8A=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: src/it/unisa/bank/BankAccount.java
     visible: true
@@ -31,7 +31,7 @@ files:
     visible: true
     placeholders:
       - offset: 51
-        length: 10
+        length: 19
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -39,40 +39,43 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wr+3/iM8tskz4DJmBZxUXabr5I07KHIcDAuL4DfOUUU=
         selected: false
-        status: Unchecked
-      - offset: 279
-        length: 10
+        status: Failed
+      - offset: 288
+        length: 62
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 279
         initialized_from_dependency: false
         encrypted_possible_answer: LrcD5jdEctXKe4Y3JUuS1hVRq8V/ogk2NppWDeFSEfZM2uv4/5iLSoOUM0ODgPeXDAzDIxmrGfOnkQ2JO+BewA==
-        selected: false
-        status: Unchecked
-      - offset: 397
-        length: 10
+        selected: true
+        status: Failed
+      - offset: 458
+        length: 78
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 397
         initialized_from_dependency: false
         encrypted_possible_answer: LrcD5jdEctXKe4Y3JUuS1o6A0osxiLL62otJRWrzqLuovqiYYj629sz/DqwmAMC+H8r4ca0bUulBJk1Hvz+cp5xhR+snUMTskWuRfCe9hMU=
-        selected: false
-        status: Unchecked
-      - offset: 512
-        length: 10
+        selected: true
+        status: Failed
+      - offset: 641
+        length: 50
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 512
         initialized_from_dependency: false
         encrypted_possible_answer: 1aTfVwS1BwdMeu0c98KVasiKO/CkM5JMZjW1Rpx0nniVhLEr1F1voi5IxGrb2fmlcJJt2C44LKoPj05f/Q9v5bpvGihqlny9dmICjtznn0JChMwtoBvF+mO4eg1FHtx04ubrx+TpSVsz6xdqEFRFbA==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: test/it/unisa/bank/BankTest.java
     visible: true
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: it.unisa.bank.BankTest
+  time: "Wed, 12 Nov 2025 17:01:20 UTC"
 record: -1

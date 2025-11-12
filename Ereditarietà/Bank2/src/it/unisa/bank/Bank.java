@@ -11,8 +11,8 @@ public class Bank {
         this.accounts = new ArrayList<>();
     }
 
-    public void addAccount(/* TODO */) {
-        /* TODO */
+    public void addAccount(BankAccount account) {
+        accounts.add(account);
     }
 
     public BankAccount find(int accountNumber) {
