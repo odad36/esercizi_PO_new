@@ -12,15 +12,44 @@ public class CarSeller {
     }
 
     public void readUserDataFromFile(File file) throws FileNotFoundException {
-        /* TODO */
+        Scanner in = new Scanner(file);
+        cars.clear();
+        while(in.hasNextLine()) {
+            try {
+                String brand = in.nextLine();
+                String model = in.nextLine();
+                int annoProduzione = Integer.parseInt(in.nextLine());
+                double prezzo = Double.parseDouble((in.nextLine()));
+                Car macchina = new Car(brand, model, annoProduzione, prezzo);
+                cars.add(macchina);
+            } catch (NoSuchElementException | NumberFormatException ex) {  //con queste riusciamo a gestire input errati oppure assenza di righe
+                System.err.println("Il formato del file è errato!");
+                ex.printStackTrace(); //stampa a schermo la traccia dell'eccezione
+            }
+        }
     }
 
     public void writeUserDataToFile(File file, boolean overwrite) throws FileNotFoundException, FileAlreadyExistsException {
-        /* TODO */
+        if(!overwrite){
+            if (file.exists())
+                throw new FileAlreadyExistsException("il file esiste");
+        }
+        writeUserDataToFile(file);
     }
 
     private void writeUserDataToFile(File file) throws FileNotFoundException {
-        /* TODO */
+        try {
+            PrintWriter writer = new PrintWriter(file);
+            for (Car car : cars) {
+                writer.println(car.getBrand());
+                writer.println(car.getModel());
+                writer.println(car.getManufacturingYear());
+                writer.println(car.getPrice());
+                writer.close();
+            }
+        } catch (FileNotFoundException ex) {  //con queste riusciamo a gestire input errati oppure assenza di righe
+            System.err.println("Il file non esiste");
+        }
     }
 
     @SuppressWarnings("unchecked")
