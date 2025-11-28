@@ -77,7 +77,17 @@ public class BankTest {
         b.addAccount(new BankAccount("Harry", -1000));
     }
 
-    /* TODO */
+    @Test(expected = IllegalArgumentException.class)
+    public void depositWithNegativeAmountTest() {
+        Bank b = new Bank();
+        b.addAccount(new BankAccount("Harry", 1000));
+        b.deposit(1,-100);
+    }
 
-    /* TODO */
+    @Test(expected = IllegalArgumentException.class)
+    public void withdrawWithAmountHigherThanBalanceTest() {
+        Bank b = new Bank();
+        b.addAccount(new BankAccount("Harry", 1000));
+        b.withdraw(1,10000);
+    }
 }

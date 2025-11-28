@@ -5,14 +5,22 @@ public class Person {
     final private String name;
     final private String surname;
     final private int birthYear;
-    /* TODO */
+    final private String userId;
+    final private String password;
 
-    public Person(String name, String surname, int birthYear/* TODO */) {
-        /* TODO */
+    public Person(String name, String surname, int birthYear, String userId, String password) {
+
+        if (userId.indexOf(' ') != -1 || userId.length() < 5)
+            throw new IllegalArgumentException("Login dell’utente con formato errato");
+        if (password.indexOf(' ') != -1 || password.length() < 5)
+            throw new IllegalArgumentException("Password dell’utente con formato errato");
+        if (name == null || surname == null || birthYear < 1900)
+            throw new IllegalArgumentException();
+        this.userId = userId;
         this.name = name;
         this.surname = surname;
         this.birthYear = birthYear;
-        /* TODO */
+        this.password = password;
     }
 
     public String getName() {
@@ -27,11 +35,15 @@ public class Person {
         return birthYear;
     }
 
-    /* TODO */
+    public String getUserId() {
+        return userId;
+    }
 
-    /* TODO */
+    public String getPassword(){
+        return password;
+    }
 
-    /* TODO */
+
 
     @Override
     public String toString() {

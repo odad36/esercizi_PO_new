@@ -12,11 +12,23 @@ public class PersonTest {
                 p.toString());
     }
 
-    /* TODO */
+    @Test(expected = IllegalArgumentException.class)
+    public void tooOldYearTest() {
+        new Person("Alice", "Rossi", 1897, "aliror", "testPassword");
+    }
 
-    /* TODO */
+    @Test(expected = IllegalArgumentException.class)
+    public void shortUserIdTest() {
+        new Person("Alice", "Rossi", 1997, "alir", "testPassword");
+    }
 
-    /* TODO */
+    @Test(expected = IllegalArgumentException.class)
+    public void spaceInUserIdTest() {
+        new Person("Alice", "Rossi", 1997, "ali ros", "testPassword");
+    }
 
-    /* TODO */
+    @Test(expected = IllegalArgumentException.class)
+    public void spaceInPasswordTest() {
+        new Person("Alice", "Rossi", 1997, "aliros", "test Password");
+    }
 }

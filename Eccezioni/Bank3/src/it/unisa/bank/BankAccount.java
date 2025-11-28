@@ -17,8 +17,9 @@ public class BankAccount {
         this.customerName = customerName;
     }
 
-    public BankAccount(String customerName, double initialBalance) /* TODO */ {
-        /* TODO */
+    public BankAccount(String customerName, double initialBalance) throws IllegalArgumentException {
+        if(initialBalance < 0)
+            throw new IllegalArgumentException("stai senza una lira\n");
         totalNumberOfAccounts++;
         accountNumber = totalNumberOfAccounts;
         balance = initialBalance;
@@ -31,7 +32,8 @@ public class BankAccount {
      * @param amount the amount to deposit
      */
     public void deposit(double amount) {
-        /* TODO */
+        if (amount < 0)
+            throw new IllegalArgumentException("impossibile depositare una quantità negativa\n");
 
         balance = balance + amount;
     }
@@ -42,8 +44,8 @@ public class BankAccount {
      * @param amount the amount to withdraw
      */
     public void withdraw(double amount) {
-        /* TODO */
-
+        if (amount > this.balance)
+            throw new IllegalArgumentException("you're broke");
         balance = balance - amount;
     }
 

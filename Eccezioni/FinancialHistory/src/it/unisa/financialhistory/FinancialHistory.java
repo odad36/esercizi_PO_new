@@ -9,11 +9,17 @@ public class FinancialHistory {
     final private List<Movement> movements;
 
     public FinancialHistory(Person person, double balance) {
-        /* TODO */
+        if(balance < 0)
+            throw new IllegalArgumentException("bilancio in rosso\n");
+        this.person = person;
+        this.balance = balance;
+        movements = new ArrayList<>();
     }
 
     public void receiveFrom(int amount, String source) {
-        /* TODO */
+        Movement lukaku = new Movement(source, amount);
+        movements.add(lukaku);
+        balance += amount;
     }
 
     public void spendFor(int amount, String reason) {
@@ -28,19 +34,33 @@ public class FinancialHistory {
     }
 
     public double cashOnHand() {
-        /* TODO */
+        return balance;
     }
 
     public double totalReceivedFrom(String source) {
-        /* TODO */
+        double total = 0;
+        for(Movement m : movements){
+            if(m.getDescription().equals(source)) {
+                if (m.getAmount() > 0)
+                    total += m.getAmount();
+            }
+        }
+        return total;
     }
 
     public double totalSpentFor(String reason) {
-        /* TODO */
+        double total = 0;
+        for(Movement m : movements){
+            if(m.getDescription().equals(reason)) {
+                if (m.getAmount() < 0)
+                    total += m.getAmount();
+            }
+        }
+        return total;
     }
 
     public void printMovements() {
-        /* TODO */
+        System.out.println(movements);
     }
 
 }
