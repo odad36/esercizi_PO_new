@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.school.PersonTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-27T20:55:00.997Z" hostname="DESKTOP-LPPBL0E" time="0.003">
+  <properties/>
+  <testcase name="tooOldYearTest" classname="it.unisa.school.PersonTest" time="0.001"/>
+  <testcase name="spaceInPasswordTest" classname="it.unisa.school.PersonTest" time="0.001"/>
+  <testcase name="toStringTest" classname="it.unisa.school.PersonTest" time="0.0"/>
+  <testcase name="shortUserIdTest" classname="it.unisa.school.PersonTest" time="0.001"/>
+  <testcase name="spaceInUserIdTest" classname="it.unisa.school.PersonTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
