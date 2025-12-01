@@ -122,5 +122,8 @@ files:
         selected: false
         status: Unchecked
     learner_created: false
+  - name: src/it/unisa/quiz/Measurable.java
+    visible: true
+    learner_created: true
 status: Unchecked
 record: -1
