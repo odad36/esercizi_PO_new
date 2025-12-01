@@ -8,7 +8,12 @@ public class Quiz implements Measurable {
         this.score = score;
     }
 
-    /* TODO */
+    @Override
+    public double getMeasure(){
+        return score;
+    }
 
-    /* TODO */
+    public int compareTo(Measurable other){
+        return Double.compare(score, other.getMeasure());
+    }
 }

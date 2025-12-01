@@ -11,8 +11,8 @@ files:
           offset: 203
         initialized_from_dependency: false
         encrypted_possible_answer: 1tk8bw6n/VX6V8JmkHXFa1x79lvse+P8CvrMCrycnRNFLgAY7772JGRQeJ93tL0e8EFJ7/hX3jqqvRczljIiK3/OsORaQ+2DLy/8Omd/JZY=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: test/output.txt
     visible: false

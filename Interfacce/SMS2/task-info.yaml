@@ -9,26 +9,29 @@ files:
   - name: src/it/unisa/SMS/SMSOrganizer.java
     visible: true
     placeholders:
-      - offset: 337
-        length: 10
+      - offset: 338
+        length: 47
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 337
         initialized_from_dependency: false
         encrypted_possible_answer: bFhXrDGawWugXD2mI44MvnWj1fPqokPmLmORqgRVWclGR0o5SkiD6fM4hr5PMmff
-        selected: false
-        status: Unchecked
-      - offset: 434
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 464
+        length: 47
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 434
         initialized_from_dependency: false
         encrypted_possible_answer: bFhXrDGawWugXD2mI44MvnWj1fPqokPmLmORqgRVWckpnEjG0cEwyz+E2UvFbFw5
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 12 Nov 2025 13:03:07 UTC"
 record: -1

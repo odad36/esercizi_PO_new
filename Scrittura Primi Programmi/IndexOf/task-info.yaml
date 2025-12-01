@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: fsipsbx1WNv7LKiEgbHs0FrXrxdeEEsyXBDQDbGhlF6Irqh7FrHHSa5G4UxRjKA0h6Ch/y13sowhM/gZqgs5pLZWzaXBa6b8juzizJ3/ExAw2aeMcj3scv7iXG4coYeHDpgFb6oV+W3GT+Cnvlu7KYV/yl9YbTGsCnsOlmXpuIR9oO/HAcB1lo4QVNnr7fBl
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: test/output.txt
     visible: false

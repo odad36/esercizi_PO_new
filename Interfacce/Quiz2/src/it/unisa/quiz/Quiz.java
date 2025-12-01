@@ -1,6 +1,6 @@
 package it.unisa.quiz;
 
-public class Quiz /* TODO */ {
+    public class Quiz implements Comparable<Quiz> {
 
     private final double score;
 
@@ -8,10 +8,16 @@ public class Quiz /* TODO */ {
         this.score = score;
     }
 
-    public double getMeasure() {
-        return score;
-    }
+    public double getMeasure(){
+        return this.score;
+        }
 
     @Override
-/* TODO */
+    public int compareTo(Quiz other) {
+        if (this.score > other.score)
+            return 1;
+        else if(this.score < other.score)
+            return -1;
+        return 0;
+    }
 }

@@ -4,39 +4,39 @@ files:
     visible: true
     placeholders:
       - offset: 52
-        length: 10
+        length: 30
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 52
         initialized_from_dependency: false
         encrypted_possible_answer: 2cQygpHHVu0cuoXfSaMSZwAiRCrCBnYWBlZjERdR2mI=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: src/it/unisa/quiz/Quiz.java
     visible: true
     placeholders:
       - offset: 171
-        length: 10
+        length: 69
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 171
         initialized_from_dependency: false
         encrypted_possible_answer: rydaPfk0X4RmkWkdkoZFEO2oZc1fEG2vzQfOItOIJnDZnaUjpA449ZjOPKLSVIIEQEZvGDsDWQhA5AkyHrFKiqpgp5oxHwgWgAM+vLKNb2GCvlZN7xUxZB2T5sIrBNWWqjkaNebaAbLpKU7so2EOLzyrjbomcXr8H8H8GIKguXMn/YZraXVIwAZHELsOfMsB
-        selected: false
-        status: Unchecked
-      - offset: 187
-        length: 10
+        selected: true
+        status: Failed
+      - offset: 246
+        length: 103
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 187
         initialized_from_dependency: false
         encrypted_possible_answer: rydaPfk0X4RmkWkdkoZFEJs7eGnkGOpo/WKDcJcf8ountXQvkIygcNnjyoJy6yRaIxKlmN+wALOVu7DjSeEBwb3KdgYzcDrshjANetnyV3U=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: test/it/unisa/quiz/DataSetTest.java
     visible: true
@@ -44,5 +44,8 @@ files:
   - name: src/it/unisa/quiz/DataSet.java
     visible: true
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Failed to launch checking
+  time: "Wed, 12 Nov 2025 16:37:45 UTC"
 record: -1
