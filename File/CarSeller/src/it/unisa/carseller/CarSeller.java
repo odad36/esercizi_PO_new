@@ -12,8 +12,8 @@ public class CarSeller {
     }
 
     public void readUserDataFromFile(File file) throws FileNotFoundException {
+        this.cars = new ArrayList<>();
         Scanner in = new Scanner(file);
-        cars.clear();
         while(in.hasNextLine()) {
             try {
                 String brand = in.nextLine();
@@ -27,6 +27,7 @@ public class CarSeller {
                 ex.printStackTrace(); //stampa a schermo la traccia dell'eccezione
             }
         }
+        in.close();
     }
 
     public void writeUserDataToFile(File file, boolean overwrite) throws FileNotFoundException, FileAlreadyExistsException {
@@ -38,27 +39,40 @@ public class CarSeller {
     }
 
     private void writeUserDataToFile(File file) throws FileNotFoundException {
-        try {
-            PrintWriter writer = new PrintWriter(file);
+        PrintWriter writer = new PrintWriter(file);
             for (Car car : cars) {
                 writer.println(car.getBrand());
                 writer.println(car.getModel());
                 writer.println(car.getManufacturingYear());
                 writer.println(car.getPrice());
-                writer.close();
             }
-        } catch (FileNotFoundException ex) {  //con queste riusciamo a gestire input errati oppure assenza di righe
-            System.err.println("Il file non esiste");
-        }
+        writer.close();
     }
+
 
     @SuppressWarnings("unchecked")
     public void readSerializedDataFromFile(File file) throws IOException, ClassNotFoundException {
-        /* TODO */
+        ObjectInputStream in = new ObjectInputStream(new FileInputStream(file));
+        try {
+            this.cars = ((ArrayList<Car>) in.readObject());
+            in.close();
+        }
+        catch(ClassNotFoundException ce){
+            System.err.println("classe non trovata");
+        }
+        catch(IOException ioe){
+            System.err.println("errore di I/O nella lettura");
+        }
     }
 
     public void writeSerializedDataToFile(File file) throws IOException {
-        /* TODO */
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(file));
+        try {
+            out.writeObject(cars);
+            out.close();
+        } catch (IOException e) {
+            System.err.println("errore di I/O nella scrittura");
+        }
     }
 
     public List<Car> getCars() {

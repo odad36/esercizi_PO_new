@@ -29,11 +29,45 @@ public class PhoneCompanyTest {
 
     @Test
     public void writeUserDataToFileTest() {
-        /* TODO */
+        PhoneCompany phoneCompany = new PhoneCompany(0.10, 0.05, 2);
+        File file = Path.of("test/").resolve("testData.txt").toFile();
+        try {
+            //Read the file, change the number of used minutes for the first user, and save it
+            phoneCompany.readUserDataFromFile(file);
+            phoneCompany.getUsers().getFirst().setUsedMinutes(500);
+            phoneCompany.writeUserDataToFile(file, true);
+
+            //Read the file to assert that it was correctly written
+            phoneCompany.readUserDataFromFile(file);
+            Assert.assertEquals(500, phoneCompany.getUsers().getFirst().getUsedMinutes(), 0);
+
+            //Restore the original number of used minutes
+            phoneCompany.getUsers().getFirst().setUsedMinutes(200);
+            phoneCompany.writeUserDataToFile(file, true);
+        } catch (FileNotFoundException | FileAlreadyExistsException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Test
     public void writeSerializedDataToFileTest() {
-        /* TODO */
+        PhoneCompany phoneCompany = new PhoneCompany(0.10, 0.05, 2);
+        PhoneCompany phoneCompany2 = new PhoneCompany(0.10, 0.05, 2);
+        File textFile = Path.of("test/").resolve("testData.txt").toFile();
+        File binFile = new File("test/testData.dat");
+        try {
+            //Read the data from the text file and save them in the bin file
+            phoneCompany.readUserDataFromFile(textFile);
+            phoneCompany.writeSerializedDataToFile(binFile);
+
+            //The data is read from the binary file and the number of cars is verified
+            phoneCompany2.readSerializedDataFromFile(binFile);
+            Assert.assertEquals(2, phoneCompany2.getUsers().size());
+
+            //Finally the binary file is removed
+            binFile.delete();
+        } catch (IOException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

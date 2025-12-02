@@ -101,11 +101,45 @@ public class BankTest {
 
     @Test
     public void writeUserDataToFileTest() throws FileAlreadyExistsException, FileNotFoundException {
-        /* TODO */
+        File dataFile = new File("test/testData.txt");
+
+        // Initialize two accounts and save them in a file
+        Bank b1 = new Bank();
+        b1.addAccount(new BankAccount(1, "Harry", 1000));
+        b1.addAccount(new SavingAccount(2, "Jules", 1000, 1));
+        b1.writeUserDataToFile(dataFile, true);
+
+        // Read the file and verify the accounts
+        Bank b2 = new Bank();
+        b2.readUserDataFromFile(new File("test/testData.txt"));
+        Assert.assertEquals(2, b2.getAccounts().size());
+        Assert.assertEquals("Harry", b2.find(1).getCustomerName());
+        SavingAccount julesAccount = (SavingAccount) b2.find(2);
+        Assert.assertEquals(1, julesAccount.getInterestRate(), 0);
+
+        dataFile.delete();
     }
 
     @Test
     public void writeSerializedDataToFileTest() {
-        /* TODO */
+        Bank b1 = new Bank();
+        Bank b2 = new Bank();
+        b1.addAccount(new BankAccount(1, "Harry", 1000));
+        b1.addAccount(new SavingAccount(2, "Jules", 1000, 1));
+
+        File binFile = new File("test/testData.dat");
+        try {
+            //Save the accounts in the bin file
+            b1.writeSerializedDataToFile(binFile);
+
+            //The data is read from the binary file and the number of cars is verified
+            b2.readSerializedDataFromFile(binFile);
+            Assert.assertEquals(2, b2.getAccounts().size());
+
+            //Finally the binary file is removed
+            binFile.delete();
+        } catch (IOException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

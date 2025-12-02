@@ -2,7 +2,7 @@ package it.unisa.bank;
 
 import java.io.Serializable;
 
-public class BankAccount/* TODO */ {
+public class BankAccount implements Serializable {
 
     private final int accountNumber;
     static int totalNumberOfAccounts = 0;
