@@ -6,9 +6,11 @@ public class Main {
         List<String> friends = Arrays.asList("Brian", "Nate", "Neal", "Sara", "Scott");
 
         // Converti una lista di nomi in maiuscolo e stampali usando map e forEach
-        /* TODO */
+        friends.stream().map(String::toUpperCase).
+                forEach(friend -> System.out.println(friend));
 
         // stampa la lunghezza di ogni nome
-        /* TODO */
+        friends.stream().map(String::length).
+                forEach(friend -> System.out.println(friend));
     }
 }

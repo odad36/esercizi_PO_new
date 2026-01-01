@@ -4,28 +4,37 @@ files:
     visible: true
     placeholders:
       - offset: 232
-        length: 10
+        length: 48
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 232
         initialized_from_dependency: false
         encrypted_possible_answer: gUUPbSdDbSiX5xpX7E3+pw6j0y+1196jRBldR/AfvITrdixoM+6UcEeg1H5bVm/h
-        selected: false
-        status: Unchecked
-      - offset: 303
-        length: 10
+        selected: true
+        status: Failed
+      - offset: 340
+        length: 111
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 303
         initialized_from_dependency: false
         encrypted_possible_answer: +d4pYaUTgMyxdxjF9jo0nd924qZ6birmOxUKn7FVP8LSe3fHoyNCkkJaR68PZuyJiCKJ9bTy9QS4TF0BHTP88eht9REA+xQJvU1ouKRAQckorbg31I9hnrtROUa8eTrO
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: test/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 01 Jan 2026 16:28:50 UTC"
+  actual: |
+    Anna
+    Luca
+    Marco
+    Giulia
+    Giulia
 record: -1

@@ -33,6 +33,6 @@ files:
   - name: src/it/unisa/spaghettivehiclearchive/gui/InsertMotorCyclePanel.java
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

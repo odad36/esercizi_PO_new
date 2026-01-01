@@ -6,12 +6,16 @@ public class Main {
         List<Integer> prices = Arrays.asList(30, 20, 15, 45);
 
         // Dato un elenco di prezzi, calcola la somma dei prezzi superiori a 20 euro, scontati del 10%.
-        /* TODO */
+        double total = prices.stream().filter(price -> price > 20)
+        .map(price -> price * 0.9)
+        .reduce((double) 0,(accum, v) -> accum + v);
 
         System.out.println(total);
 
         // Applica uno sconto del 20% ai prezzi inferiori a 25 euro e sommali.
-        /* TODO */
+        total = prices.stream().filter(price -> price < 25)
+                .map(price -> price * 0.8)
+                .reduce((double) 0,(accum, v) -> accum + v);
 
         System.out.println(total);
     }

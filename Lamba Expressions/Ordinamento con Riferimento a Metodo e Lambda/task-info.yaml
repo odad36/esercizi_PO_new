@@ -4,28 +4,34 @@ files:
     visible: true
     placeholders:
       - offset: 288
-        length: 10
+        length: 73
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 288
         initialized_from_dependency: false
         encrypted_possible_answer: bikRPsRTIVSsfD4HthPTnn3roLBhFvrt46oaCxiiwsV2QsObm9pPQc8KKK2aYncjkQcTv/u7E1BGP6lvU+LXgA==
-        selected: false
-        status: Unchecked
-      - offset: 415
-        length: 10
+        selected: true
+        status: Failed
+      - offset: 478
+        length: 74
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 415
         initialized_from_dependency: false
         encrypted_possible_answer: bikRPsRTIVSsfD4HthPTnlkALDv46Y5Cbv+Bce8MSI5HQVuYP+ZyXkzUurylgXJ97lu/CkELdVr6rUXEfmoxXr/LGbvvh1kG3Fp4VkPWFqWCQBbnbOX5ZCdw66E64blr
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: test/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 01 Jan 2026 18:09:52 UTC"
+  actual: |
+    [kiwi, apple, banana, strawberry]
+    [strawberry, banana, apple, kiwi]
 record: -1

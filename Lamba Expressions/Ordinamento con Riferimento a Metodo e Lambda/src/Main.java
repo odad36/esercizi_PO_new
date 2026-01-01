@@ -6,11 +6,11 @@ public class Main {
         String[] words = {"banana", "apple", "kiwi", "strawberry"};
 
         // Ordina una lista di parole in base alla lunghezza usando una lambda expression.
-        /* TODO */
+        Arrays.sort(words,(s1, s2) -> Integer.compare(s1.length(), s2.length()));
         System.out.println(Arrays.toString(words));
 
         // Ordina in maniera decrescente di lunghezza.
-        /* TODO */
+        Arrays.sort(words, (s1, s2) -> Integer.compare(s2.length(), s1.length()));
         System.out.println(Arrays.toString(words));
     }
 }
